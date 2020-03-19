@@ -16,7 +16,7 @@ namespace Sitecore.Support.ContentSearch
 
     using Debug = System.Diagnostics.Debug;
 
-    public class FieldMap : IFieldMap, IFieldMapEx
+    public class FieldMap : IFieldMap
     {
         private readonly Dictionary<string, AbstractSearchFieldConfiguration> fieldNameMap = new Dictionary<string, AbstractSearchFieldConfiguration>();
 
