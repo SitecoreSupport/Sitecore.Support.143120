@@ -1,6 +1,4 @@
-﻿using Sitecore.ContentSearch.Utilities;
-using Sitecore.Exceptions;
-namespace Sitecore.Support.ContentSearch
+﻿namespace Sitecore.Support.ContentSearch
 {
     using System;
     using System.Collections.Generic;
@@ -8,9 +6,9 @@ namespace Sitecore.Support.ContentSearch
     using System.Xml;
     using Sitecore.ContentSearch;
     using Sitecore.ContentSearch.LuceneProvider;
-    using Sitecore.Data;
-    using Sitecore.Data.Fields;
+    using Sitecore.ContentSearch.Utilities;
     using Sitecore.Diagnostics;
+    using Sitecore.Exceptions;
     using Sitecore.Reflection;
     using Sitecore.Xml;
 
